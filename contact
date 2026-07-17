@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strycon LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #1f2937;
+        }
+        p {
+            color: #555;
+            font-size: 28px;
+        }
+        .main-logo {
+            width: 750px;
+            height: auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.stryconllc.com/SLGH.png" alt="Strycon Logo" class="main-logo">
+    <h1>Strycon LLC</h1>
+    <p>Phone: (833) 787-9266</p>
+    <p>Email: inquires@stryconllc.com</p>
+    <p>169 N Market St, Elysburg, PA 17824</p>
+</body>
+</html>

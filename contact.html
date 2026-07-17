@@ -25,13 +25,42 @@
             height: auto;
             max-width: 100%;
         }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 40px auto; /* Centers the form block horizontally */
+            text-align: left; /* Align the labels to the left inside the centered box */
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px;
+            box-sizing: border-box; /* Keeps padding from breaking the width sizing */
+        }
+
+        .contact-form button {
+            padding: 10px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <img src="https://www.stryconllc.com/SLGH.png" alt="Strycon Logo" class="main-logo">
     <h1>Strycon LLC</h1>
     <p>Phone: (833) 787-9266</p>
-    <p>Email: inquires@stryconllc.com</p>
     <p>169 N Market St, Elysburg, PA 17824</p>
+    <form class="contact-form" action="https://formsubmit.co/inquires@stryconllc.com" method="POST">
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name" required>
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" required>
+     <br>
+     <br>
+     <label for="message">Message</label>
+     <textarea name="message" id="message" rows="4" required></textarea>
+     <br>
+     <button type="submit">Send</button>
 </body>
 </html>
